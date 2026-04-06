@@ -1,0 +1,82 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #FCF8F8, #A888B5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Game container */
+.game {
+  background: #F3F8FF;
+  padding: 30px 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  width: 320px;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+/* Moves & Score */
+.moves, .counts {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #444;
+}
+
+.moves span {
+  font-size: 2rem;
+}
+
+/* Buttons */
+.btns button {
+  font-size: 1.5rem;
+  margin: 8px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #f1f3ff;
+  transition: all 0.2s ease;
+}
+
+.btns button:hover {
+  background: #dfe3ff;
+  transform: translateY(-2px);
+}
+
+/* Reset button */
+.reset-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reset-btn:hover {
+  background: #ff4d4d;
+}
+
+/* Game count */
+h4 {
+  margin-top: 15px;
+  color: #666;
+}
